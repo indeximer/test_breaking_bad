@@ -1,7 +1,6 @@
-# Shoppin Cart
+# See it Live
 
-This projct is an exercise that consist in a simple shopping cart and checkout.
-The project uses Bootstrap for the grids and visual components.
+https://test-breaking-bad.netlify.com/
 
 ## Getting Started
 
@@ -32,3 +31,12 @@ yarn start
 ```
 
 A new tab should open in your browser with the app.
+
+To run the tests:
+```
+npm test
+```
+or:
+```
+yarn test
+```
