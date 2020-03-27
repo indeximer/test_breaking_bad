@@ -1,0 +1,28 @@
+.card{
+    border: none;
+    border-radius: 0;
+
+    &:hover{
+        .card-img-top{
+            opacity: 1;
+        }
+    }
+    .card-img-top {
+        border-radius: 0;
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        opacity: .8;
+        transition: all 0.3s ease;
+    }
+    .h5{
+        font-size: 1.05rem;
+    }
+    .btn-primary{
+        background-color: #487F5A;
+        border-color: #487F5A;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+}
